@@ -1,13 +1,88 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar{background-color: #fff;}
+.navbar-brand {
+  font-size: 1.6rem !important;
+  color: #565387 !important;
 }
+.navbar a{font-size: 1.3rem; text-transform: capitalize;}
+.menu_active{color: #565387 !important;font-weight: bold;border-bottom: 1px solid #565387 !important;text-decoration: none !important;padding: 8px;}
+.navbar a:hover{color: #3498db !important;}
+#header{width: 100%;height: 80vh;margin-top: 70px;}
+#header h1{margin: 0 0 10x 0;  font-weight: 700;
+color: #000;}
+#header .brand-name { color: #3498db;}
+#header p{color: #484848; font-size: 24px;}
+.custom-btn a {
+  border-radius: 20px;
+  text-transform: capitalize;
+  letter-spacing: 1px;font-size: 16px; font-weight: 500;padding: 10px 30px;transition: 0.5s;border:2px solid;
+}
+.custom-btn a:hover {
+  color: #fff;
+}
+.haeder-img{text-align: right;}
+#header .animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+.card img {
+  max-height: 250px;
+  object-fit: cover;
+}
+.card-title {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 15px;
+}
+footer p {
+  margin: 0;
+}
+.form-label {
+  text-transform: capitalize;
+}
+@-webkit-keyframes up-down{
+  0% {
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+@keyframes up-down{
+  0% {
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+@media (max-width:991px){
+  .navbar-brand {
+    font-size: 1.5rem !important;}
+    .menu_active{border-bottom: none;}
+}
+@media (max-width:767px){
+  #header h1 br{display: none;}
+  #header p {
+      font-size: 18px;
+  }
+}
+
+
+
