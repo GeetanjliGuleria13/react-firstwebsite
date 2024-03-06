@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-firstwebsite/static/css/main.2a953ce7.css",
+    "main.js": "/react-firstwebsite/static/js/main.6def4848.js",
+    "static/js/592.b646d2c6.chunk.js": "/react-firstwebsite/static/js/592.b646d2c6.chunk.js",
+    "static/media/software.jpg": "/react-firstwebsite/static/media/software.aa5305676fefdc977a0b.jpg",
+    "static/media/android.jpg": "/react-firstwebsite/static/media/android.6603440edcfa532da54f.jpg",
+    "static/media/app.jpg": "/react-firstwebsite/static/media/app.1dda7ff8269d05c06ae8.jpg",
+    "static/media/web.jpg": "/react-firstwebsite/static/media/web.900794c7e5a1fd2c172a.jpg",
+    "static/media/marketing.jpg": "/react-firstwebsite/static/media/marketing.3ff9124048d7331d8ee0.jpg",
+    "static/media/digital.jpg": "/react-firstwebsite/static/media/digital.0bfac0fc87fd6c350c73.jpg",
+    "static/media/rocket-2.png": "/react-firstwebsite/static/media/rocket-2.8ba2d0d3d49b4ea0b53b.png",
+    "static/media/about.png": "/react-firstwebsite/static/media/about.00d09dd612d72f5dab21.png",
+    "index.html": "/react-firstwebsite/index.html",
+    "main.2a953ce7.css.map": "/react-firstwebsite/static/css/main.2a953ce7.css.map",
+    "main.6def4848.js.map": "/react-firstwebsite/static/js/main.6def4848.js.map",
+    "592.b646d2c6.chunk.js.map": "/react-firstwebsite/static/js/592.b646d2c6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a953ce7.css",
+    "static/js/main.6def4848.js"
+  ]
+}
